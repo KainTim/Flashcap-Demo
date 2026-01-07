@@ -9,9 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FlashCap" Version="1.11.0" />
-      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
-      <PackageReference Include="System.Reactive" Version="6.1.0" />
+      <PackageReference Include="Xabe.FFmpeg.Downloader" Version="6.0.2" />
     </ItemGroup>
 
 </Project>
