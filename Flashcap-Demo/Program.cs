@@ -16,8 +16,7 @@ internal static class Program
             DeviceDescriptors = deviceDescriptors,
         };
         var captureDeviceDescriptor = menu.ShowDeviceMenu();
-        Console.WriteLine($"Characteristics:\n\t" +
-                          $"{string.Join("\n\t",captureDeviceDescriptor.Characteristics)}");
+        var characteristic = menu.ShowCharacteristicMenu();
     }
     
 }
