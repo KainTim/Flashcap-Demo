@@ -17,6 +17,9 @@ internal static class Program
         };
         var captureDeviceDescriptor = menu.ShowDeviceMenu();
         var characteristic = menu.ShowCharacteristicMenu();
+        Console.WriteLine($"Chosen:\n\t" +
+                          $"{captureDeviceDescriptor}\n\t" +
+                          $"{characteristic}");
     }
     
 }
